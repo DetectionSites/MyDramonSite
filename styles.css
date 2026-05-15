@@ -83,6 +83,7 @@ p {
   /*color: #b90b31;*/
   color: red;
   line-height: 2;
+  font-weight: bold;
   }
 
 hr {
@@ -92,7 +93,7 @@ hr {
   margin: 100px auto;
 }
 
-a{
+a:visited {
   color: #053f2c;
   font-family: Times New Roman, lobster, 'Montserrat', sans-serif;
   margin: 10px 20px;
@@ -101,6 +102,10 @@ a{
 
 a:hover {
   color: #EAF6F6;
+}
+
+a:active {
+  color: rgb(250, 167, 0)
 }
 
 .top-container {
