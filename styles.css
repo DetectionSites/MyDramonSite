@@ -127,6 +127,8 @@ a:active {
 
 .bottom-container {
   background-color: #66BFBF;
+  color: red;
+  font-family: Times New Roman, lobster, sans-serif;
   padding: 50px 0 20px;
 }
 
