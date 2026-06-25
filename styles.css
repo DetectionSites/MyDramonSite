@@ -4,7 +4,22 @@ body {
   margin: 0;
   text-align: center;
   font-family: lobster, 'Merriweather', sans-serif;
+
+ margin: 50px 50px 0 50px;
+  display: center;
+  flex-direction: column;
+  min-height: 95vh;
 }
+.main {
+  flex: 1;
+}
+
+.responsive {
+   max-width: 60%;
+   height: auto;
+}
+
+
 /*body {
   background-image: url("images/rain.png");
   background-size: cover;
@@ -79,6 +94,7 @@ h4 {
   font-size: 2.0rem;
   text-align: center;
 }
+
 p {
   /*color: #b90b31;*/
   color: red;
