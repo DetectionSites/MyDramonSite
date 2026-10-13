@@ -212,6 +212,21 @@ a:active {
   margin-left: 30px;
 }
 
+.protect-me {
+  /* Disables right-click menu, dragging, and hovering on the image */
+  pointer-events: none;
+ 
+  /* Disables text/image selection highlights across different browsers */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Safari */
+  -khtml-user-select: none;    /* Konqueror HTML */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version (Chrome, Opera) */
+}
+
+
+
 .btn {
   background: #203f41;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
