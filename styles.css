@@ -253,3 +253,51 @@ a:active {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
+
+/* Navigation Bar Styling */
+
+.navbar {
+
+    background-color: #333;
+
+    padding: 1rem;
+
+}
+
+
+
+.navbar ul {
+
+    list-style-type: none;
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+
+
+.navbar a {
+
+    color: rgb(233, 37, 37);
+
+    text-decoration: none;
+
+    font-size: 1.1rem;
+
+}
+
+
+
+.navbar a:hover, .navbar a.active {
+
+    color: #ffd700; /* Highlight color on hover or active page */
+
+    text-decoration: underline;
+
+}
+
+
+}
